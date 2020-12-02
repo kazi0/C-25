@@ -21,7 +21,7 @@ class ground
 			push()
 			translate(groundPos.x, groundPos.y);
 			rectMode(CENTER)
-			strokeWeight(4);
+			strokeWeight(0);
 			fill(255,255,0)
 			rect(0,0,this.w, this.h);
 			pop()
